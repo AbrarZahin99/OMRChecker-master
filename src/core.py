@@ -297,7 +297,7 @@ class ImageInstanceOps:
                     detected_bubbles = []
                     for bubble in field_block_bubbles:
                         bubble_is_marked = (
-                            180 > all_q_vals[total_q_box_no]
+                            200 > all_q_vals[total_q_box_no]
                         )
                         total_q_box_no += 1
                         if bubble_is_marked:
